@@ -1,0 +1,10 @@
+card.classList.add("fall");
+        card.addEventListener("animationend", function (e) {
+          setTimeout(function () {
+            card.remove();
+          }, 100);
+        });
+      });
+      removeManyTodo(deleteIndexes);
+    });
+    
